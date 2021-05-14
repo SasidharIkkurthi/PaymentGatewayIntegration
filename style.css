@@ -1,0 +1,109 @@
+*{
+  margin:0; 
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+header
+{
+   width:100%;
+   height:100vh;
+   background-image: url('medidas-covid.jpg');
+   background-repeat: no-repeat;
+   background-size:cover;
+}
+nav
+{
+   width:100%; height:10vh;
+   background  :white;
+   color:black;
+     display:flex;
+     justify-content:space-between;
+     align-items: center;
+      text-transform:uppercase;
+}
+nav .logo
+{
+   width:25% ;
+   text-align:center;
+
+
+}
+nav .menu
+{
+  width:40%;
+  
+  display:flex; 
+   justify-content: space-around ;
+   
+}
+nav .menu a
+{
+     width:25%;
+	 height:50px;
+     text-decoration:none;
+     color:black; 
+     font-weight:bold; 
+	 text-align:center;
+
+	 
+	 
+}
+main{
+  width:100%; 
+  height:85vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+  color:white;
+}
+section h3
+{
+  font-size:35px; font-weight: 200 ;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 2px black ;
+  color:orange;
+}
+section h1
+{
+ margin:  30px 0 20px 0;
+ font-size:55px;
+ font-weight: 700;
+ text-shadow: 2px 1px 5px black;
+ text-transform: uppercase;
+ 
+}
+section p
+{
+   font-size: 25px;
+    word-spacing:2px;
+    margin-bottom:25px;
+    text-shadow:1px 1px 1px black;
+	color:green;
+}
+section a
+{
+  padding:12px 30px;
+  border-radius:4px;
+  outline:none;
+  text-transform:uppercase;
+  font-size:13px;
+  font-weight:500;
+  text-decoration:none;
+  letter-spacing: 1px;
+}
+section .btntwo
+{
+  background:#00b894;
+  color: white  ;
+}
+nav.menu a:first-child
+{
+        color:#00b894;
+}
+h4{background-color:white;
+color:black;
+text-align:center;
+	}
+	h3{text-align:center;}
